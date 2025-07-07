@@ -1,0 +1,34 @@
+{
+  "name": "dummy-users-api",
+  "version": "1.0.0",
+  "description": "A RESTful API built with Express.js that generates and serves 100 dummy user records including name, email, age, gender, and country.",
+  "keywords": [
+    "REST API",
+    "Dummy Data",
+    "Express API",
+    "Mock Users API",
+    "Node.js",
+    "User Generator",
+    "Public API",
+    "JSON API",
+    "Ali Raza"
+  ],
+  "author": "Ali Raza <your-email@example.com>",
+  "license": "ISC",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "start": "node init && node index.js",
+    "dev": "node init && nodemon index.js"
+  },
+  "dependencies": {
+    "express": "^5.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AliRazaAbro123/Dummy-user-api"
+  }
+}
